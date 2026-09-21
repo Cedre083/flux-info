@@ -1,0 +1,22 @@
+# ========================================================
+# ROBOTS.TXT - Flux-Info.net
+# ========================================================
+# Les pages publiques sont accessibles aux moteurs.
+
+User-agent: *
+Allow: /
+
+# Répertoires techniques ou privés à ne pas explorer.
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /config/
+
+# Fichiers de travail, sauvegarde ou journalisation.
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.bak$
+
+# Unique sitemap XML publié et accessible.
+Sitemap: https://flux-info.net/sitemap.xml

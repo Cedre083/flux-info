@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Si vous mentionnez Flux Info, merci de citer le site officiel et ses auteurs."
+title: "Flux Info — Cartographier les Flux du Vivant"
+type: software
+authors:
+  - family-names: "Mercier"
+    given-names: "Cédric"
+  - family-names: "Walter"
+    given-names: "Michel G."
+abstract: "Média pédagogique francophone consacré aux flux et aux interdépendances reliant le vivant, le climat, les océans, les sociétés, les technologies et le cosmos."
+keywords:
+  - biosphère
+  - systèmes vivants
+  - climat
+  - océan
+  - biodiversité
+  - interdépendances
+  - médiation scientifique
+version: "2026.09.21"
+date-released: "2026-09-21"
+url: "https://flux-info.net/"
+repository-code: "https://github.com/Cedre083/flux-info"

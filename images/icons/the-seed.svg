@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Symbole The Seed</title>
+  <desc id="desc">Une graine en germination entourée d’une orbite lumineuse.</desc>
+  <defs>
+    <linearGradient id="sprout" x1="17" y1="53" x2="47" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CF6B8"/>
+      <stop offset=".55" stop-color="#EAD8FF"/>
+      <stop offset="1" stop-color="#FFF4B8"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <ellipse cx="32" cy="33" rx="24" ry="10" transform="rotate(-27 32 33)" fill="none" stroke="#CDB1FF" stroke-width="1.2" opacity=".75"/>
+  <ellipse cx="32" cy="33" rx="24" ry="10" transform="rotate(43 32 33)" fill="none" stroke="#82EFA8" stroke-width="1.1" opacity=".6"/>
+  <circle cx="32" cy="32" r="4.4" fill="#FFF0B0" filter="url(#glow)"/>
+  <path d="M32 47V32" stroke="url(#sprout)" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M32 35c-8.5-1.2-12.8-5.7-13.4-13.1 8.2.1 12.6 4.4 13.4 13.1Z" fill="url(#sprout)" opacity=".94"/>
+  <path d="M32 29.5c1.2-8.1 5.8-12.5 13.7-13-0.4 8.1-4.9 12.4-13.7 13Z" fill="url(#sprout)" opacity=".94"/>
+  <path d="M25 47.8c2.8 3.1 11.2 3.1 14 0-2.4-3.4-11.5-3.4-14 0Z" fill="#B47E55" opacity=".9"/>
+  <circle cx="12.7" cy="25.5" r="1.5" fill="#F4EDFF"/>
+  <circle cx="51.2" cy="39.8" r="1.5" fill="#E8FFF0"/>
+</svg>

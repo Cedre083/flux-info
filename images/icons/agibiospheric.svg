@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Symbole AGIBIOSPHERIC</title>
+  <desc id="desc">Une biosphère composée de cercles, de réseaux et d’une feuille.</desc>
+  <defs>
+    <linearGradient id="aura" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6D4FF"/>
+      <stop offset=".52" stop-color="#98EFC3"/>
+      <stop offset="1" stop-color="#77BFFF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#aura)" stroke-width="1.5" opacity=".8"/>
+  <path d="M11 32c6-8 12-12 21-12s16 4 21 12c-6 8-12 12-21 12S17 40 11 32Z" fill="none" stroke="url(#aura)" stroke-width="1.25" opacity=".72"/>
+  <path d="M32 8c-5.5 6.8-8.2 14.8-8.2 24S26.5 49.2 32 56c5.5-6.8 8.2-14.8 8.2-24S37.5 14.8 32 8Z" fill="none" stroke="url(#aura)" stroke-width="1.25" opacity=".72"/>
+  <g filter="url(#glow)" fill="#EAFEF1">
+    <circle cx="22" cy="23" r="2.1"/>
+    <circle cx="42" cy="24" r="2.1"/>
+    <circle cx="31" cy="42" r="2.1"/>
+  </g>
+  <path d="M32 39c1.1-9 5.6-13.1 13.4-13.8-1.2 7.9-5.7 12.3-13.4 13.8Z" fill="#8CF0B1" opacity=".92"/>
+  <path d="M31.8 39.2c-3.9-5.1-3.5-10.5.8-15.9 4.7 5.1 4.5 10.4-.8 15.9Z" fill="#D8D1FF" opacity=".88"/>
+  <path d="M20.8 23.8 31.7 39l10.1-14.1" fill="none" stroke="#F0FEF4" stroke-width=".9" opacity=".72"/>
+</svg>

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+
+    font-family: Inter, "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+    font-size: clamp(1.125rem, 2.2vw, 1.4375rem);
+    line-height: 1.5;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.support-ecosystem {
+    padding: 80px 20px;
+    background: linear-gradient(
+        180deg,
+        #08131f,
+        #102336,
+        #08131f
+    );
+    color: #f4f4f4;
+}
+
+.support-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.support-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.support-header h2 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.support-header p {
+    font-size: clamp(1.125rem, 1.4vw + 0.8rem, 1.4375rem);
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.support-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    transition: all 0.4s ease;
+    border: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+.support-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255,255,255,0.08);
+}
+
+.featured {
+    border: 2px solid #57d4ff;
+    box-shadow: 0 0 30px rgba(87,212,255,0.25);
+}
+
+.support-price {
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: #57d4ff;
+    margin-bottom: 20px;
+}
+
+.support-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.support-card h2 {
+    margin: 0 0 15px;
+    padding: 0;
+    border: 0;
+    color: #ffffff;
+    font-size: 1.625rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.35;
+    text-align: center;
+    text-transform: none;
+}
+
+.support-card p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+
+.support-paypal-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: auto auto 0;
+    padding: 12px 18px;
+    border: 1px solid rgba(87, 212, 255, 0.55);
+    border-radius: 50px;
+    color: #e9f9ff;
+    background: rgba(87, 212, 255, 0.12);
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-paypal-button:hover,
+.support-paypal-button:focus-visible {
+    color: #08131f;
+    background: #57d4ff;
+    border-color: #bff0ff;
+    box-shadow: 0 0 24px rgba(87, 212, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+.support-paypal-button:active {
+    transform: scale(0.97);
+}
+
+.paypal-zone {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.support-payment-note {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    color: #d8efff;
+    background: rgba(87, 212, 255, 0.08);
+    border: 1px solid rgba(87, 212, 255, 0.25);
+    border-radius: 14px;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+
+.separator-line {
+    height: 1px;
+    background: rgba(255,255,255,0.15);
+    margin: 70px 0;
+}
+
+.sharing-section {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.sharing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.sharing-highlight {
+    font-size: 2rem;
+    color: #57d4ff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sharing-section p {
+    font-size: clamp(1.125rem, 1.4vw + 0.8rem, 1.4375rem);
+    line-height: 1.9;
+}
+
+.social-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px 0;
+}
+
+.social-grid a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.08);
+    font-size: 1.1rem;
+    transition: all .3s ease;
+}
+
+.social-grid a:hover {
+    background: #57d4ff;
+    color: #08131f;
+}
+
+.support-footer {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.support-footer p {
+    font-size: clamp(1.125rem, 1.4vw + 0.8rem, 1.4375rem);
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.thank-you {
+    margin-top: 40px;
+    font-size: 1.9rem;
+    color: #57d4ff;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .support-ecosystem {
+        padding: 60px 18px;
+    }
+
+    .support-card {
+        padding: 28px 24px;
+    }
+
+    .support-price {
+        font-size: 2.8rem;
+    }
+
+    .support-card h2 {
+        font-size: 1.45rem;
+    }
+
+    .support-card p,
+    .support-payment-note {
+        font-size: 1.125rem;
+    }
+}
+/*
+  À ajouter à la fin de /css/style.css.
+  Cette version évite le sélecteur global .img-flux-wrapper img :
+  la vignette est une image d

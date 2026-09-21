@@ -1,0 +1,38 @@
+# Flux Info
+
+> Flux Info est un média pédagogique indépendant qui explique les flux de matière, d’énergie, d’information et de vivant reliant la Biosphère, les sociétés humaines et les technologies. Il propose des récits de vulgarisation, des références documentaires, des simulateurs et des quiz. Le site assume une approche sensible et narrative ; il ne se présente pas comme une revue académique.
+
+## Positionnement
+
+Flux Info distingue les ressources institutionnelles, les publications scientifiques et les interprétations éditoriales. Les affirmations factuelles importantes sont accompagnées de références lorsque cela est pertinent.
+
+## Pages principales
+
+- [Accueil](https://flux-info.net/): présentation du projet et six domaines d’exploration.
+- [À propos](https://flux-info.net/apropos.php): mission, positionnement éditorial et responsables du projet.
+- [Océan](https://flux-info.net/article-ocean-courants.php): circulation thermohaline, courants profonds et climat.
+- [Ciel](https://flux-info.net/article-ciel-vents.php): atmosphère, aérobiologie et rivières atmosphériques.
+- [Terre](https://flux-info.net/article-terre-migrations.php): migrations, biodiversité et réseaux souterrains.
+- [Cosmos](https://flux-info.net/article-cosmos-etoiles.php): naissance, évolution et mort des étoiles.
+- [Humanité](https://flux-info.net/article-humanite-vivant.php): vivant, conscience et limites de l’interprétation.
+- [Archipel](https://flux-info.net/article-archipel-conscience.php): interdépendances, éthique de la relation et pensée systémique.
+- [Dissociation](https://flux-info.net/article-dissociation.php): systèmes numériques, infrastructures matérielles et limites du réel.
+- [FAQ](https://flux-info.net/faq.php): questions générales sur les thèmes et la démarche du site.
+- [Mentions légales](https://flux-info.net/mentions-legales.php): éditeur, hébergement, nature du site et limites de responsabilité.
+
+## Sources et interprétation
+
+Les articles ne remplacent pas l’avis de spécialistes. Les sources sont indiquées dans les pages thématiques et doivent être consultées directement pour les usages scientifiques, médicaux, juridiques ou professionnels.
+
+## Langue
+
+Français.
+
+## Méthode éditoriale
+
+- [Charte éditoriale](https://flux-info.net/politique-editoriale.php): niveaux de preuve, sources et transparence.
+- [Carte des Flux](https://flux-info.net/carte-des-flux.php): navigation entre phénomènes et interdépendances.
+
+## Mise à jour
+
+2026-09-20

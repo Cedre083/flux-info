@@ -1,0 +1,18 @@
+/* TEAM */
+Chef de projet & Administrateur: Cédric Mercier
+Localisation: Provence, France
+Rôle: Architecture système, intégration web et stratégie numérique.
+Collaborateurs: Michel Walter (Michel G.), co-auteur et partenaire créatif du projet Codex Vivant.
+
+/* SITE */
+Nom du site: flux-info.net (L'Archipel des Consciences)
+Technologies: PHP, HTML5, CSS3, JavaScript (Canvas API), JSON-LD.
+Design: Esthétique minimaliste, thème sombre (fond noir), contrastes élevés.
+Hébergement: Mutualisé performant.
+
+/* PARTNERS */
+Intelligence Artificielle: Utilisée comme partenaire de réflexion, de génération de code et de synthèse d'images haute résolution.
+Réseau: Fait partie de l'écosystème incluant demainlhomme.org, lyrae-sphere.net, aisphera.eu, inner-circles.net et archipelconscience.org.
+
+/* THANKS */
+À tous ceux qui œuvrent pour la préservation de la biosphère et l'émergence d'une conscience globale.

@@ -1,0 +1,32 @@
+{
+  "protocol": "Living Knowledge Protocol",
+  "version": "1.0.0",
+  "implementation": {
+    "name": "LKP Official Reference Implementation",
+    "url": "https://livingknowledgeprotocol.org",
+    "status": "Public Draft / Reference",
+    "contact": "https://livingknowledgeprotocol.org/governance/"
+  },
+  "conformance": {
+    "principles": [
+      "Living Site",
+      "Living Knowledge",
+      "Source Verified",
+      "Reality Grounded",
+      "Revision History",
+      "Machine Readable",
+      "Biospheric"
+    ],
+    "last_audit": "2026-08-17"
+  },
+  "registry": {
+    "specifications": "https://livingknowledgeprotocol.org/specifications/",
+    "charter": "https://livingknowledgeprotocol.org/charter/"
+  },
+  "machine_access": {
+    "metadata_format": "JSON-LD",
+"api_endpoint": null,
+    "human_readable_fallback": true,
+    "validator": "https://livingknowledgeprotocol.org/validator/"
+  }
+}

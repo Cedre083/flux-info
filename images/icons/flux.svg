@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="fluxHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9fdcff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1b2b4a" stop-opacity="0.1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#fluxHalo)"/>
+  <path d="M14 38
+           C20 30, 26 34, 32 28
+           C38 22, 44 26, 50 18"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="2.2"
+        stroke-linecap="round"/>
+  <path d="M14 46
+           C20 38, 26 42, 32 36
+           C38 30, 44 34, 50 26"
+        fill="none"
+        stroke="#cfe9ff"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-opacity="0.8"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="lyraeHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8b0ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a0b33" stop-opacity="0.1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#lyraeHalo)"/>
+  <!-- Étoile centrale -->
+  <path d="M32 18
+           L35 27
+           L44 28
+           L37 34
+           L39 43
+           L32 38
+           L25 43
+           L27 34
+           L20 28
+           L29 27Z"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="1.8"
+        stroke-linejoin="round"/>
+  <!-- Petite orbite -->
+  <ellipse cx="32" cy="34" rx="14" ry="6"
+           fill="none"
+           stroke="#f5e6ff"
+           stroke-width="1.2"
+           stroke-opacity="0.8"/>
+</svg>

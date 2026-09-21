@@ -1,0 +1,87 @@
+{
+  "territories": [
+    {
+      "id": "ocean",
+      "label": "Océan",
+      "accent": "#59c8ff",
+      "portal": "ocean.php",
+      "article": "article-ocean-courants.php",
+      "summary": "Circulations de l’eau, chaleur, vivant et mémoire climatique.",
+      "nodes": [
+        {"id":"courants-oceaniques","label":"Courants océaniques","kind":"circulation","href":"article-ocean-courants.php","description":"Les circulations profondes redistribuent chaleur, sel et nutriments à l’échelle planétaire.","links":["chaleur","rivieres-atmospheriques","secheresse"]},
+        {"id":"chaleur","label":"Chaleur","kind":"énergie","href":"article-ocean-courants.php","description":"L’océan absorbe, stocke et restitue une part majeure de la chaleur du système climatique.","links":["atmosphere","secheresse","societe"]},
+        {"id":"eau-ocean","label":"Eau","kind":"matière","href":"article-ocean-courants.php","description":"L’eau océanique alimente les échanges avec l’atmosphère et le cycle hydrologique global.","links":["rivieres-atmospheriques","sols","alimentation"]},
+        {"id":"vivant-marin","label":"Vivant marin","kind":"vivant","href":"article-ocean-courants.php","description":"Les flux physiques de l’océan conditionnent la distribution des nutriments et des organismes.","links":["sols","alimentation","corps-vivant"]}
+      ]
+    },
+    {
+      "id": "ciel",
+      "label": "Ciel",
+      "accent": "#77f4dc",
+      "portal": "ciel.php",
+      "article": "article-ciel-vents.php",
+      "summary": "Atmosphère, vents, humidité, précipitations et redistribution de l’énergie.",
+      "nodes": [
+        {"id":"atmosphere","label":"Atmosphère","kind":"milieu","href":"article-ciel-vents.php#circulation-atmospherique","description":"L’atmosphère redistribue chaleur et humidité entre les régions et les milieux.","links":["courants-oceaniques","rivieres-atmospheriques","secheresse","sols"]},
+        {"id":"rivieres-atmospheriques","label":"Rivières atmosphériques","kind":"eau","href":"article-ciel-vents.php#rivieres-volantes","description":"De grands corridors de vapeur transportent l’eau au-dessus des continents avant les précipitations.","links":["eau-ocean","sols","agriculture"]},
+        {"id":"secheresse","label":"Sécheresse","kind":"déséquilibre","href":"article-ciel-vents.php#secheresse","description":"Un déficit durable d’eau disponible se propage des conditions atmosphériques vers les sols, le vivant et les sociétés.","links":["chaleur","sols","agriculture","alimentation","societe"]},
+        {"id":"precipitations","label":"Précipitations","kind":"flux d’eau","href":"article-ciel-vents.php#rivieres-volantes","description":"Les précipitations rendent à la surface une partie de l’eau transportée par l’atmosphère.","links":["sols","agriculture","vivant-terrestre"]}
+      ]
+    },
+    {
+      "id": "terre",
+      "label": "Terre",
+      "accent": "#78ff9c",
+      "portal": "terre.php",
+      "article": "article-terre-migrations.php",
+      "summary": "Sols, écosystèmes, migrations, fertilité et territoires vivants.",
+      "nodes": [
+        {"id":"sols","label":"Sols","kind":"interface","href":"article-terre-migrations.php#sols","description":"Les sols reçoivent l’eau, transforment la matière et soutiennent les réseaux du vivant.","links":["precipitations","secheresse","agriculture","alimentation"]},
+        {"id":"agriculture","label":"Agriculture","kind":"activité humaine","href":"article-terre-migrations.php#agriculture","description":"L’agriculture dépend des sols, de l’eau, des saisons et du vivant tout en les transformant.","links":["sols","secheresse","alimentation","societe"]},
+        {"id":"vivant-terrestre","label":"Vivant terrestre","kind":"vivant","href":"article-terre-migrations.php","description":"Espèces, habitats et migrations expriment les continuités écologiques d’un territoire.","links":["sols","alimentation","corps-vivant"]},
+        {"id":"territoires","label":"Territoires","kind":"échelle","href":"article-terre-migrations.php","description":"Les flux du vivant s’inscrivent dans des espaces où eau, sols, climat et usages humains se rencontrent.","links":["agriculture","societe","archipel-relations"]}
+      ]
+    },
+    {
+      "id": "cosmos",
+      "label": "Cosmos",
+      "accent": "#c9a5ff",
+      "portal": "cosmos.php",
+      "article": "article-cosmos-etoiles.php",
+      "summary": "Origine de la matière, énergie stellaire et recyclage cosmique.",
+      "nodes": [
+        {"id":"premiers-elements","label":"Premiers éléments","kind":"matière","href":"article-cosmos-etoiles.php#premiers-elements","description":"Les premiers noyaux légers apparaissent très tôt dans l’histoire cosmique.","links":["matiere-stellaire"]},
+        {"id":"matiere-stellaire","label":"Matière stellaire","kind":"matière","href":"article-cosmos-etoiles.php","description":"Les étoiles transforment progressivement la matière et rendent possibles de nouveaux éléments.","links":["recyclage-cosmique","sols","corps-vivant"]},
+        {"id":"recyclage-cosmique","label":"Recyclage cosmique","kind":"cycle","href":"article-cosmos-etoiles.php#recyclage-cosmique","description":"La matière dispersée par les étoiles rejoint le milieu interstellaire et participe à de nouveaux systèmes.","links":["matiere-stellaire","sols","corps-vivant"]},
+        {"id":"energie-stellaire","label":"Énergie stellaire","kind":"énergie","href":"article-cosmos-etoiles.php","description":"L’énergie des étoiles traverse les échelles et devient une condition majeure du vivant planétaire.","links":["vivant-terrestre","alimentation","corps-vivant"]}
+      ]
+    },
+    {
+      "id": "humanite",
+      "label": "Humanité",
+      "accent": "#ffad87",
+      "portal": "humanite.php",
+      "article": "article-humanite-vivant.php",
+      "summary": "Corps, alimentation, sociétés, technologies et dépendances matérielles.",
+      "nodes": [
+        {"id":"corps-vivant","label":"Corps vivant","kind":"organisme","href":"article-humanite-vivant.php#corps-ecosysteme","description":"Le corps humain est un système ouvert traversé par des flux de matière, d’énergie et d’information.","links":["alimentation","matiere-stellaire","vivant-terrestre"]},
+        {"id":"alimentation","label":"Alimentation","kind":"flux social","href":"article-humanite-vivant.php#alimentation","description":"L’alimentation relie eau, sols, biodiversité, énergie, agriculture, santé et organisation sociale.","links":["agriculture","sols","corps-vivant","societe"]},
+        {"id":"societe","label":"Société","kind":"système","href":"article-humanite-vivant.php#societe","description":"Les sociétés organisent des flux matériels et informationnels dont elles dépendent en permanence.","links":["alimentation","agriculture","secheresse","archipel-relations"]},
+        {"id":"technologies","label":"Technologies","kind":"médiation","href":"article-dissociation.php","description":"Les technologies peuvent rendre les flux plus visibles ou, au contraire, masquer leur ancrage matériel.","links":["societe","archipel-relations"]}
+      ]
+    },
+    {
+      "id": "archipel",
+      "label": "Archipel",
+      "accent": "#f3d66f",
+      "portal": "archipel.php",
+      "article": "article-archipel-conscience.php",
+      "summary": "La couche relationnelle : voir comment les territoires se rencontrent.",
+      "nodes": [
+        {"id":"archipel-relations","label":"Relations","kind":"connexion","href":"article-archipel-conscience.php#signal-habitat","description":"L’Archipel ne constitue pas un territoire supplémentaire : il rend visibles les relations entre les autres territoires.","links":["courants-oceaniques","atmosphere","sols","matiere-stellaire","societe"]},
+        {"id":"pollinisateurs","label":"Pollinisateurs","kind":"relation vivante","href":"article-archipel-conscience.php#pollinisateurs","description":"Les pollinisateurs donnent un exemple concret de dépendance réciproque entre organismes, habitats et sociétés.","links":["vivant-terrestre","agriculture","alimentation"]},
+        {"id":"signal-habitat","label":"Signal et habitat","kind":"information","href":"article-archipel-conscience.php#signal-habitat","description":"Un signal n’a de sens qu’inscrit dans un milieu, des relations et des conditions matérielles.","links":["technologies","societe","vivant-terrestre"]}
+      ]
+    }
+  ]
+}

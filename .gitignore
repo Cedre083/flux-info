@@ -1,0 +1,21 @@
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers temporaires ou sensibles
+.env
+.env.*
+*.log
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Vidéos lourdes hébergées sur le site officiel
+/videos/*.mp4
+!/videos/README.md
