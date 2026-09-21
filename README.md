@@ -1,4 +1,4 @@
-# Flux Info — Cartographier les Flux du Vivant
+# Flux Info: Cartographier les Flux du Vivant
 
 **Flux Info** est un média pédagogique francophone qui rend visibles les flux et les interdépendances reliant l’océan, l’atmosphère, les sols, le vivant, l’humanité, les technologies et le cosmos.
 
