@@ -179,8 +179,14 @@ if ($seoType === 'article') {
 } elseif ($canonicalPath === '/faq.php') {
     $webPage['mainEntity'] = ['@id'=>'https://flux-info.net/faq.php#faq'];
 }
+$authors = [
+    ['@type'=>'Person','@id'=>'https://flux-info.net/#person-cedric-mercier','name'=>'Cédric Mercier','url'=>'https://flux-info.net/apropos.php','worksFor'=>['@id'=>'https://flux-info.net/#organization']],
+    ['@type'=>'Person','@id'=>'https://flux-info.net/#person-michel-walter','name'=>'Michel G. Walter','url'=>'https://flux-info.net/apropos.php','worksFor'=>['@id'=>'https://flux-info.net/#organization']],
+];
 $graph=[
- ['@type'=>'Organization','@id'=>'https://flux-info.net/#organization','name'=>'Flux Info','alternateName'=>'Flux-Info.net','url'=>'https://flux-info.net/','description'=>$fluxInfoDefinition,'foundingDate'=>'2026','logo'=>['@type'=>'ImageObject','url'=>'https://flux-info.net/logo-1024.png'],'publishingPrinciples'=>'https://flux-info.net/politique-editoriale.php','knowsAbout'=>$siteAbout],
+ ['@type'=>'Organization','@id'=>'https://flux-info.net/#organization','name'=>'Flux Info','alternateName'=>'Flux-Info.net','url'=>'https://flux-info.net/','description'=>$fluxInfoDefinition,'foundingDate'=>'2026','codeRepository'=>'https://github.com/Cedre083/flux-info','sameAs'=>['https://github.com/Cedre083/flux-info'],'parentOrganization'=>['@id'=>'https://flux-info.net/#association-terre-sacree'],'logo'=>['@type'=>'ImageObject','url'=>'https://flux-info.net/logo-1024.png'],'publishingPrinciples'=>'https://flux-info.net/politique-editoriale.php','knowsAbout'=>$siteAbout],
+ ['@type'=>'Organization','@id'=>'https://flux-info.net/#association-terre-sacree','name'=>'Association française Terre « sacrée »','url'=>'https://flux-info.net/mentions-legales.php','foundingDate'=>'1999'],
+ ...$authors,
  ['@type'=>'WebSite','@id'=>'https://flux-info.net/#website','url'=>'https://flux-info.net/','name'=>'Flux Info','alternateName'=>'Flux-Info.net','description'=>$fluxInfoDefinition,'inLanguage'=>'fr-FR','publisher'=>['@id'=>'https://flux-info.net/#organization'],'about'=>$siteAbout],
  $webPage,
  ['@type'=>'BreadcrumbList','itemListElement'=>$crumbs]
@@ -201,7 +207,7 @@ if ($seoType === 'article') {
         'dateModified'=>$seoModified,
         'inLanguage'=>'fr-FR',
         'isAccessibleForFree'=>true,
-        'author'=>['@id'=>'https://flux-info.net/#organization'],
+        'author'=>array_map(static fn (array $author): array => ['@id'=>$author['@id']], $authors),
         'publisher'=>['@id'=>'https://flux-info.net/#organization'],
         'articleSection'=>$articleSections[$canonicalPath] ?? 'Vulgarisation',
         'keywords'=>$topics,
